@@ -63,6 +63,11 @@ return {
         disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin" },
       },
     },
+    plugins = {
+      "lewis6991/gitsigns.nvim",
+      "m4xshen/autoclose.nvim",
+      "rhysd/conflict-marker.vim"
+    },
   },
 
   -- This function is run last and is a good place to configuring
